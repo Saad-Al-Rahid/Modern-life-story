@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: #242f51;
+}
+
+img {
+  width: 100%;
+}
+
+.common__btn {
+  background-color: #2500f9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: 16px 32px;
+  transition: 500ms;
+}
+
+.btn {
+  color: #2500f9;
+}
+
+.btn:hover {
+  color: #fcae61;
+}
+
+.common__btn:hover {
+  background-color: #fcae61;
+  color: #242f51;
+}
+
+nav {
+  height: 140px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: #fcae61;
+  font-weight: 700;
+}
+
+.navbar-brand span {
+  color: #242f51;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: #242f51;
+  margin-right: 2.5rem;
+  transition: 400ms;
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover,
+.navbar-collapse .navbar-nav .nav-link.active {
+  color: #fcae61;
+}
+
+/* ===HERO SECTION START=== */
+#hero {
+  width: 100%;
+  height: 96vh;
+  background-image: url(./image/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.hero__content {
+  margin-left: 70px;
+}
+
+#hero .hero__top {
+  width: 364px;
+  display: flex;
+  align-items: center;
+  background: #e2eaed;
+  border-radius: 20px;
+}
+
+.hero__top i {
+  background: #fcae61;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 11px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+#hero .hero__top p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#hero h1 {
+  max-width: 525px;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.heading__p {
+  max-width: 525px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 16px 0 32px;
+}
+
+span {
+  color: #2500f9;
+}
+
+.span__1 {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.span__2 {
+  position: absolute;
+  top: 250px;
+  left: 850px;
+}
+.span__3 {
+  font-size: 30px;
+  position: absolute;
+  top: 850px;
+  left: 550px;
+}
+.span__4 {
+  position: absolute;
+  top: 550px;
+  left: 980px;
+}
+
+/* ===HERO SECTION END=== */
+
+/* ===COMPANY SECTION START=== */
+
+#company {
+  padding: 96px 0;
+}
+
+.company__head {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.company__img {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.southwest {
+  width: 133px;
+  height: 42px;
+}
+.anubis {
+  width: 118px;
+  height: 84px;
+}
+
+.alonzo {
+  width: 151px;
+  height: 58px;
+}
+.express {
+  width: 123px;
+  height: 71px;
+}
+.maniac {
+  width: 147;
+  height: 51px;
+}
+
+/* ===COMPANY SECTION END=== */
+
+/* ===FEATURE SECTION START=== */
+
+#feature {
+  padding: 90px 0;
+}
+
+.feature__content h3 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.feature__content__box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.feature__box__img {
+  padding: 20px;
+  background: #e2eaed;
+  border-radius: 50%;
+}
+
+.feature__box__img img {
+  width: 58px;
+  height: 54px;
+}
+
+.feature__content__text {
+  max-width: 300px;
+}
+
+.feature__content__text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f55767;
+}
+
+.feature__content__text p {
+  color: #616368;
+}
+
+/* ===FEATURE SECTION END=== */
+
+/* ===JACKPOT SECTION START=== */
+
+.jackpot__head {
+  /* max-width: 425px; */
+  padding: 0 80px 0 135px;
+  border-right: 1px solid #242f51;
+}
+
+.jackpot__left h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.jackpot-text {
+  padding-left: 50px;
+  padding-right: 180px;
+}
+
+.jackpot__cards {
+  padding-top: 100px;
+}
+
+.jackpot__card {
+  padding-left: 135px;
+}
+
+.jackpot__card img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 32px;
+}
+
+.jackpot__card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f55767;
+  margin-bottom: 16px;
+}
+
+.jackpot__card p {
+  color: #616368;
+}
+
+/* ===JACKPOT SECTION END=== */
+
+/* ===OFFER SECTION START=== */
+
+#offer {
+  padding: 100px 0;
+  border-bottom: 1px solid #b8bdca;
+}
+
+.offer__content {
+  padding-left: 100px;
+}
+
+.offer__content h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.offer__content p {
+  color: #616368;
+  margin: 30px 0;
+}
+
+/* ===OFFER SECTION END=== */
+
+/* ===REVIEWS SECTION START=== */
+
+#review {
+  padding: 100px 0;
+}
+
+/* ===REVIEWS SECTION END=== */
+
+/* ===APP SECTION START=== */
+
+#app {
+  padding: 100px 0;
+}
+
+.section__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.app__cards {
+  margin-top: 60px;
+}
+
+.app__card {
+  padding: 30px 60px;
+  text-align: center;
+}
+
+.app__card img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 30px;
+}
+
+.app__card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.app__card p {
+  color: #616368;
+}
+
+/* ===APP SECTION END=== */
+
+/* ===PLAN SECTION START=== */
+
+#plan {
+  padding: 100px 0;
+}
+
+.plan__content h3 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.plan__content p {
+  color: #616368;
+}
+
+.plan__card img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 30px;
+}
+
+.plan__card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.plan__card p {
+  color: #616368;
+}
+
+/* ===PLAN SECTION END=== */
+
+/* ===PRICING SECTION START=== */
+
+#pricing {
+  padding: 100px 0;
+  border-bottom: 1px solid #ccd1dd;
+}
+
+.section__title__para {
+  color: #616368;
+}
+
+#pills-tab {
+  width: 280px;
+  margin-top: 80px;
+  padding: 2px;
+  border: 1px solid #2500f9;
+  border-radius: 32px;
+  justify-content: space-between;
+}
+
+#pills-tab button {
+  border-radius: 32px;
+  width: 130px;
+}
+
+.pil__cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.pil__card {
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pil__card .pill__card__head {
+  padding: 70px 0 40px;
+}
+
+.pil__card .pill__card__head h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.pil__card .pill__card__head h1 span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #616368;
+}
+
+.pil__card .pill__card__head h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.pil__card .pill__card__head p {
+  font-size: 18px;
+  color: #616368;
+  font-weight: 500;
+}
+
+.pill__card__body {
+  background: #f8fafb;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.pill__card__body p {
+  color: #616368;
+  margin-bottom: 24px;
+}
+
+/* ===PRICING SECTION END=== */
+
+/* ===REVIEWS SECTION START=== */
+
+#review .review__content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#review .review__content .header__review__para {
+  margin-bottom: 30px;
+}
+
+#review .review__content .reviews__star {
+  color: #fcae61;
+  font-size: 18px;
+}
+
+#review .review__content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 32px 0;
+}
+
+.reviews__profile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.reviews__profile img {
+  width: 91px;
+  height: 91px;
+}
+
+/* ===REVIEWS SECTION END=== */
+
+/* ===FAQ SECTION START=== */
+
+#faq {
+  padding: 100px 0;
+}
+
+.faq__answar__question {
+  margin-top: 60px;
+}
+
+.faq__answar__question__card {
+  background: #e2eaed;
+  padding: 24px;
+  margin-bottom: 10px;
+}
+
+.faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq__answar__question__card .faq__question h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.faq__question i {
+  font-size: 22px;
+  font-weight: 700;
+  color: #242f51;
+}
+
+.faq__answar {
+  display: none;
+  transition: 500ms;
+}
+
+.faq__answar__question__card.active .faq__answar {
+  display: block;
+}
+
+.faq__answar__question__card.active .faq__question i {
+  display: none;
+}
+/* ===FAQ SECTION END=== */
+
+/* ===DOWNLOAD SECTION START=== */
+
+.download__content h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.download__content p {
+  color: #616368;
+  margin: 30px 0;
+}
+
+.down-app {
+  display: flex;
+  gap: 20px;
+}
+
+.down-app img {
+  width: 185px;
+  height: 55px;
+}
+/* ===DOWNLOAD SECTION END=== */
+
+/* ===FOOTER SECTION START=== */
+
+footer {
+  padding: 100px 0;
+  background: #242f51;
+}
+
+footer .navbar-brand span {
+  color: #fff;
+}
+
+.footer-nav {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.footer-nav .nav-link {
+  color: #fff;
+}
+
+.social__links {
+  display: flex;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.social__links .nav-link {
+  color: #616368;
+  font-size: 22px;
+  transition: 500ms;
+}
+
+.social__links .nav-link:hover {
+  color: #fff;
+}
+
+footer p {
+  color: #616368;
+  font-size: 14px;
+  margin-top: 80px;
+}
+
+/* ===FOOTER SECTION END=== */
